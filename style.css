@@ -1,0 +1,44 @@
+.card_container {
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    gap: 20px;
+}
+
+.card{
+    width: 450px;
+    height: 650px;
+    padding: 10px;
+    background-color: rgb(255, 239, 213);
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Bradley Hand, cursive;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.7s
+}
+
+.card:hover{
+    width: 550px;
+    height: 750px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.info{
+    width: auto;
+    padding: 10px;
+}
+
+h3::first-letter{
+    color: rgb(75, 0, 130);
+    background-color: rgb(255, 160, 122);
+    font-size: 50px;
+    borser-radius: 10px
+}
